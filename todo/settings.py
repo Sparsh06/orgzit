@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'f&fz8n=1!53j6p*947%bc#+j@6+wctg=-_+0_=38)rag*-%5(r'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mighty-tor-61045.herokuapp.com','127.0.0.1']
 
 
 # Application definition
